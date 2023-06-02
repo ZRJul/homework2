@@ -46,6 +46,7 @@ alert(enter/3)
 
 // Завдання 5
 
+
 let nmb = 58694;
-let arrayNmb = Array.from(nmb.toString());
+let arrayNmb = [...nmb.toString()] .map(Number);
 console.log(arrayNmb);
